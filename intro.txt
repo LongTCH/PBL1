@@ -1,0 +1,24 @@
+                                      
+                                  WELCOME TO OUR PROJECT
+										                                                  
+                            ...:::^^~^^:.             .~~^                                
+                           .5555YYYYJY5P5J~           7PPY                                
+          ..:..            .555^       ^55P7          J557                                
+   .:^7JY5555P5Y?^          Y55~        ~555.        .555^                  ..:~!?JYJ7    
+  Y555?!^:...:!555J.        ?55?        !55J         :555.                 ?5YY?7?55P7    
+  !555.        .Y55J        !55J      :75Y!          !55Y                  .     755J     
+   ?55J         ^555.       ^555YYYY55PP5Y!:         ?55?                       ~555.     
+   .Y55!        !55Y        :555!::::..:~?555~       Y55~                      .555~      
+    ^555:     .755J.        .555:         ^55P~     .555:                      Y55?       
+     755Y:^!?YP5?^           Y55!          J55J     ~55Y                      755Y        
+      J555YJ7~:              ?55?         :55P~     755?                     ^555:        
+      .555!                  !55Y......:~JP5Y^      Y55?...                 .555~         
+       ~555.                 ^P555555555Y?!:        JY5555555YYYJ!   .      J55?          
+        ?55J                  :::.....                 ...::^^~!!:  .55Y?!^755Y.          
+        .Y5P7                                                        .:~7JY55557~:.       
+         :YY?                                                              ..^!?Y55^      
+                                                                                  .       
+               FINDING THE SHORTEST PATH USING DIJKSTRA- AND FORD_BELLMAN ALGORITHMS                                                                                                                              
+                                                  Student 1: Truong Cong Hoang Long
+                                                  Student 2: Tran Le Minh
+                                                      

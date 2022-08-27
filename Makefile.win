@@ -1,0 +1,43 @@
+# Project: PBL1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o dijkstra.o adjacency_list.o randomMatrix.o readFromKeyboard.o ford_bellman.o
+LINKOBJ  = main.o dijkstra.o adjacency_list.o randomMatrix.o readFromKeyboard.o ford_bellman.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = PBL1.exe
+CXXFLAGS = $(CXXINCS) -std=c++11
+CFLAGS   = $(INCS) -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+dijkstra.o: dijkstra.cpp
+	$(CPP) -c dijkstra.cpp -o dijkstra.o $(CXXFLAGS)
+
+adjacency_list.o: adjacency_list.cpp
+	$(CPP) -c adjacency_list.cpp -o adjacency_list.o $(CXXFLAGS)
+
+randomMatrix.o: randomMatrix.cpp
+	$(CPP) -c randomMatrix.cpp -o randomMatrix.o $(CXXFLAGS)
+
+readFromKeyboard.o: readFromKeyboard.cpp
+	$(CPP) -c readFromKeyboard.cpp -o readFromKeyboard.o $(CXXFLAGS)
+
+ford_bellman.o: ford_bellman.cpp
+	$(CPP) -c ford_bellman.cpp -o ford_bellman.o $(CXXFLAGS)
